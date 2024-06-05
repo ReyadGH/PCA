@@ -34,7 +34,7 @@ def definition():
     **Goal**: Map the data from the original high-dimensional space to a lower-dimensional space that captures as much of the variation in the data as possible. It's like finding the hidden structure in a cluttered room!    
         
     """)
-    st.image("image/pca.gif")
+    st.image("image\pca.gif")
 
     st.markdown("""
     - **Maximum variance**
@@ -60,7 +60,7 @@ def kernel_pca():
     
     """)
 
-    st.image("image/kpca1.png")
+    st.image("image\kpca1.png")
 
     st.markdown("""
     
@@ -80,13 +80,13 @@ def kernel_pca():
     where \( v = (x, y) \) is a point in 2D space. Visually, this transformation looks like this:
     """)
 
-    st.image("image/kpca2.png")
+    st.image("image\kpca2.png")
 
     st.markdown("""
     Following the logic o   f KPCA, we transformed our dataset to a higher dimension, from 2D to 3D. Now we can try to apply PCA and reduce the dimensionality from 3D to 1D. Moreover, let's transform our data first to 2D and after to 1D. The results are below:
     """)
 
-    st.image("image/kpca3.png")
+    st.image("image\kpca3.png")
 
     st.markdown("""
     Unlike the initial attempt, the projection onto the first principal component now effectively separates the red and blue points. This outcome highlights the true potential of Kernel PCA over the standard PCA.

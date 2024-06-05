@@ -16,7 +16,7 @@ import sidebar
 sidebar.initialize()
 
 col1, col2, col3 = st.columns([0.2, 0.6, 0.2])
-col2.image("image/pca.png", width=300, clamp=True)
+col2.image("image\pca.png", width=300, clamp=True)
 
 
 # Title
