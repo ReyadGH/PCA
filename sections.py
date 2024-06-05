@@ -15,10 +15,10 @@ def objectives():
     st.markdown("""
     By the end of this lesson, you will:
     - Understand what PCA is and its purpose.
-    - Learn how PCA works and its mathematical foundation.
-    - Recognize the pros and cons of using PCA.
+    - Learn how PCA works and the mathematical basics.
     - Explore the concept of Kernel PCA.
     - See PCA in action with a hands-on demo.
+    - Recognize the pros and cons of using PCA.
     - Be prepared to apply PCA to your own data projects!
     """)
 
@@ -31,8 +31,16 @@ def definition():
     
     PCA is a dimensionality reduction technique that transforms input features into their principal components. It converts a set of observations of possibly correlated features into a set of values of linearly uncorrelated features.
 
-    **Goal**: Map the data from the original high-dimensional space to a lower-dimensional space that captures as much of the variation in the data as possible. It's like finding the hidden structure in a cluttered room!
+    **Goal**: Map the data from the original high-dimensional space to a lower-dimensional space that captures as much of the variation in the data as possible. It's like finding the hidden structure in a cluttered room!    
+        
     """)
+    st.image("image/pca.gif")
+
+    st.markdown("""
+    - **Maximum variance**
+        
+    - **Minimum Error**
+                """)
 
 
 def kernel_pca():
